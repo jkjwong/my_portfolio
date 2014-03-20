@@ -1,1 +1,54 @@
+/* ---------------------------------------------------- *\
 
+\* ---------------------------------------------------- */
+html {
+	background: url('img/London_title-background.jpg') no-repeat;
+	repeat center center fixed;
+	background-size: cover;
+	height: 100%;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	height:100%;
+	overflow: scroll;
+	-webkit-overflow-scrolling: touch;
+}
+
+.header_nav {
+	background: #000;
+	color: #fff;
+	height: 100px;
+	position: fixed;
+	width: 100%;
+}
+
+	.header_nav ul {
+		margin: 0;
+	}
+
+	.header_nav li {
+		display: inline;
+		list-style: none;
+	}
+
+#bg_viewport {
+	height: 600px;
+	width: 100%;
+}
+
+#recent_work {
+	width: 100%;
+	height: 500px;
+	background: blue;
+}
+
+#recent_posts {
+	height: 500px;
+	background: pink;
+	width: 100%;
+}
