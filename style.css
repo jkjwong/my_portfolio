@@ -2,21 +2,21 @@
 
 \* ---------------------------------------------------- */
 html {
-	background: url('img/London_title-background.jpg') no-repeat;
-	repeat center center fixed;
+	background: url('img/London_title-background.jpg') no-repeat center center fixed;
 	background-size: cover;
 	height: 100%;
 	overflow: hidden;
-	margin: 0;
-	padding: 0;
 }
 
 body {
+	height: 100%;
+	overflow: auto;
+	-webkit-overflow-scrolling: touch;
+}
+
+.container {
 	margin: 0;
 	padding: 0;
-	height:100%;
-	overflow: scroll;
-	-webkit-overflow-scrolling: touch;
 }
 
 .header_nav {
@@ -37,7 +37,7 @@ body {
 	}
 
 #bg_viewport {
-	height: 600px;
+	height: 500px;
 	width: 100%;
 }
 
@@ -52,3 +52,14 @@ body {
 	background: pink;
 	width: 100%;
 }
+
+footer {
+	height: 300px;
+	width: 100%
+}
+	
+	#footer_links {
+		height: 200px;
+		width: 100%;
+		background: green;
+	}
