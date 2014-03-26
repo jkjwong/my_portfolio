@@ -7,88 +7,18 @@
 	TYPOGRAPHY
 \* ---------------------------------------------------- */
 
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-size: 120%;
-	font-weight: 300;
-}
-
-h1, h2, h2 {
-	font-family: 'Source Code Pro', sans-serif;
-	font-weight: 300;
-}
-
 /* ---------------------------------------------------- *\
 	PARENT
 \* ---------------------------------------------------- */
-html {
-	background: url('img/London_title-background.jpg') no-repeat center center fixed;
-	background-size: cover;
-	height: 100%;
-	overflow: hidden;
-}
-
-body {
-	height: 100%;
-	-webkit-overflow-scrolling: touch;
-	overflow: auto;
-}
-
-.container {
-	margin: 0;
-	padding: 0;
-}
 
 
 /* ---------------------------------------------------- *\
 	HEADER
 \* ---------------------------------------------------- */
 
-.header_nav {
-	background: #000;
-	color: #fff;
-	height: 100px;
-	width: 100%;
-}
-
-	.header_nav ul {
-		margin: 0;
-	}
-
-	.header_nav li {
-		display: inline;
-		list-style: none;
-	}
-
-#bg_viewport {
-	height: 400px;
-	width: 100%;
-}
-
-#recent_work {
-	width: 100%;
-	height: 500px;
-	background: #F1F1F1;
-}
-
-#recent_posts {
-	height: 500px;
-	background: #F7F7F7;
-	width: 100%;
-}
 
 
 /* ---------------------------------------------------- *\
 	FOOTER
 \* ---------------------------------------------------- */
 
-footer {
-	height: 300px;
-	width: 100%
-}
-	
-	#footer_links {
-		height: 200px;
-		width: 100%;
-		background: gray;
-	}
