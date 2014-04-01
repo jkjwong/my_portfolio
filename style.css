@@ -270,12 +270,30 @@ span.copyright {
 
 @media handheld, only screen and (min-width: 0px) and (max-width: 500px) {
 	.title {
-		font-size: 2em;
+		font-size: 1.8em;
+	}
+
+	#main-menu {
+		padding: 7px 0 10px 0;
+	}
+
+	nav a {
+		font-size: 0.8em;
+	}
+
+	.goto-top {
+		width: 30px;
+		height: 30px;
+		top: 5px;
 	}
 
 	.col-1-3, #recent-work .col-1-3 {
 		width: 100%;
 		background: #F2F2F2;
+	}
+
+	.content p {
+		text-align: justify;
 	}
 
 	#recent-work .col-1-3 {
@@ -284,12 +302,13 @@ span.copyright {
 
 	#recent-work {
 		background: #F2F2F2;
+		padding-right: 10px;
+	}
+	
+	#recent-posts .col-1-3{
+		padding-right: 0;
 	}
 
-	.goto-top {
-		width: 30px;
-		height: 30px;
-		top: 1.1em;
-	}
+	
 
 }
