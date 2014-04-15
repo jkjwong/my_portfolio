@@ -170,11 +170,11 @@ h3 { font-size: 1.4em; }
 		margin: 0 auto;
 		width: 100px;
 		height: 100px;
-		background: url('img/avatar-bw.png') center;
+		background: url('img/avatar-bw.gif') center;
 		background-size: contain;
 	}
 	.avatar:hover {
-		background: url('img/avatar-colour.png') center;
+		background: url('img/avatar-colour.gif') center;
 		background-size: contain;
 		-webkit-transition: 2s;
 		-moz-transition: 2s;

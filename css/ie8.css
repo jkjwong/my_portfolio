@@ -1,0 +1,23 @@
+.grid {
+	width: 900px;
+}
+
+hr {
+	border-top: 1px solid #BABABA;
+	border-bottom: 1px solid #BABABA;
+}
+
+.menu-underline-ie {
+	border-bottom: 1px solid #BABABA;
+}
+
+	.avatar {
+		background: url('../img/avatar-bw-ie.png') center;
+	}
+	.avatar:hover {
+		background: url('../img/avatar-bw-ie.png') center;
+	}
+
+.goto-top {
+	left: 10px;
+}
