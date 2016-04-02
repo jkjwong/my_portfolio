@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--[if IE 9 ]><html class="ie v9" lang="en" datas-ng-app="app"><![endif] -->
+<!--[if (gt IE 9)|!(IE)]><!--><html lang="en" ng-app="app"><!--<![endif]-->
+<head>
+	<meta charset="UTF-8">
+
+	<title>Jonathan Wong - London based front end developer</title>
+
+	<base href="/">
+
+	<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,700' rel='stylesheet' type='text/css'>
+	<link rel="stylesheet" href="css/style.min.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!--HEADER-->
+		<header ng-include="'app/partials/header.html'"></header>
+		<!--/HEADER END-->
+
+		<!--NAVIGATION-->
+		<nav ng-include="'app/partials/navigation.html'"></nav>
+		<!--/NAVIGATION END-->
+
+		<!--MAIN-->
+		<main class="container" ng-class="Main.page.template" ui-view></main>
+		<!--MAIN END-->
+
+		<!--FOOTER-->
+		<footer ng-include="'app/partials/footer.html'"></footer>
+		<!--FOOTER END-->
+	</div>
+
+	<!--<script src="lib/angular/angular.min.js"></script>-->
+	<!--<script src="lib/angular/angular-ui-router.min.js"></script>-->
+	<!--<script src="lib/angular/angular-animate.min.js"></script>-->
+	<!--<script src="app/app.js"></script>-->
+	<!--<script src="app/controllers/work.controller.js"></script>-->
+	<!--<script src="app/services/routes.js"></script>-->
+	<script src="app/main.min.js"></script>
+
+</body>
+</html>
