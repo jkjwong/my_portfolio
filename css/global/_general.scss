@@ -1,0 +1,41 @@
+html {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	background-color: #cecece;
+}
+
+h1 {
+	font-size: 2em;
+}
+
+h2 {
+	font-size: 1.9em;
+}
+
+p {
+	font-size: 1.75em;
+	font-weight: 300;
+	line-height: 1.6em;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+	font-weight: 700;
+}
+
+a.twitter {
+	color: #1da1f2;
+}
+
+a.instagram {
+	color: #125688;
+}
+
+a.job {
+	color: #fee74b;
+}
+
+.container {
+	max-width: 500px;
+	margin: 0 auto;
+}
