@@ -21,20 +21,21 @@ a {
 	color: black;
 	text-decoration: none;
 	font-weight: 700;
+
+	&.twitter {
+		color: #1da1f2;
+	}
+
+	&.instagram {
+		color: #125688;
+	}
+
+	&.job {
+		color: #fee74b;
+	}
 }
 
-a.twitter {
-	color: #1da1f2;
-}
-
-a.instagram {
-	color: #125688;
-}
-
-a.job {
-	color: #fee74b;
-}
-
+/** Layout **/
 .container {
 	max-width: 500px;
 	margin: 0 auto;

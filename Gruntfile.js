@@ -48,9 +48,14 @@ module.exports = function(grunt) {
 						'lib/angular/angular.min.js',
 						'lib/angular/angular-ui-router.min.js',
 						'lib/angular/angular-animate.min.js',
+
 						'app/app.js',
-						'app/controllers/work.controller.js',
-						'app/services/routes.js'
+
+						'app/services/routes.service.js',
+						'app/services/data.service.js',
+						'app/services/constants.service.js',
+
+						'app/controllers/work.controller.js'
 					]
 				}
 			}

@@ -5,9 +5,15 @@
 		.module('app')
 		.controller('workCtrl', workCtrl);
 
-		workCtrl.$inject = ['$scope'];
+		workCtrl.$inject = ['dataService', 'api'];
 
-		function workCtrl($scope) {
+		function workCtrl(dataService, api) {
 			console.log('work controller loaded');
+
+			var vm = this;
+
+			dataService.getData(api.work).success(function (response) {
+				vm.portfolio = response;
+			});
 		}
 })();

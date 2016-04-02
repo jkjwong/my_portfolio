@@ -19,13 +19,13 @@
 				.state('work', {
 					url: '/work',
 					controller: 'workCtrl',
+					controllerAs: 'work',
 					templateUrl: '/app/partials/pages/work.html'
-				})
-				.state('about', {
-					url: '/about',
-					templateUrl: '/app/partials/pages/about.html'
 				});
-
+				//.state('about', {
+				//	url: '/about',
+				//	templateUrl: '/app/partials/pages/about.html'
+				//});
 
 			$locationProvider.html5Mode(true);
 		}
