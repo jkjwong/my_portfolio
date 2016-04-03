@@ -1,25 +1,15 @@
-<a href="/">Home</a>
-<h2>Some things I've worked on...</h2>
-<div class="grid-wrapper">
-	<div class="grid-col col-1-2">
-		<h3>John Lobb</h3>
-	</div>
-	<div class="grid-col col-1-2">
-		<h3>Home Royale</h3>
-	</div>
-	<div class="grid-col col-1-2">
-		<h3>Somersby Cider</h3>
-	</div>
-	<div class="grid-col col-1-2">
-		<h3>Crossway Foundation</h3>
-	</div>
-	<div class="grid-col col-1-2">
-		<h3>Carlsberg - Peoples Pundit</h3>
-	</div>
-	<div class="grid-col col-1-2">
-		<h3>Danio - The Grumbler</h3>
-	</div>
-	<div class="grid-col col-1-2">
-		<h3>Katy's Cupcakes</h3>
+<div class="page-work">
+	<a href="/">Home</a>
+	<h2>Some things I've worked on...</h2>
+	<div class="grid-wrapper">
+		<div class="work-item grid-col col-1-2"
+		     ng-repeat="project in work.portfolio">
+			<div class="work-item-inner"
+			     ng-style="{'background':'url(/images/{{project.url}}/thumbnail.png) no-repeat center'}">
+				<a href="/" class="overlay">
+					<h3>{{project.title}}</h3>
+				</a>
+			</div>
+		</div>
 	</div>
 </div>
