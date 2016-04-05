@@ -7,20 +7,33 @@ h1 {
 	font-size: 2em;
 }
 
-h2 {
-	font-size: 1.9em;
+h2,
+h3 {
+	font-size: 1.75em;
+
+	@include responsive('<','tablets',(
+			font-size: 1.2em
+	));
 }
 
 p {
 	font-size: 1.75em;
 	font-weight: 300;
 	line-height: 1.6em;
+
+	@include responsive('<','tablets',(
+			font-size: 1em
+	));
 }
 
 a {
 	color: black;
 	text-decoration: none;
 	font-weight: 700;
+
+	&.github {
+		color: #333333;
+	}
 
 	&.twitter {
 		color: #1da1f2;
@@ -39,4 +52,15 @@ a {
 .container {
 	max-width: 500px;
 	margin: 0 auto;
+
+	@include responsive('<','tablets',(
+		padding-left: 10px,
+		padding-right: 10px
+	));
+}
+
+/** Elements **/
+.btn-nav {
+	font-weight: 300;
+	font-size: 0.75em;
 }

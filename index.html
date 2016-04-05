@@ -10,23 +10,7 @@
 	<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
-	<div class="wrapper">
-		<!--HEADER-->
-		<header ng-include="'app/partials/header.html'"></header>
-		<!--/HEADER END-->
-
-		<!--NAVIGATION-->
-		<nav ng-include="'app/partials/navigation.html'"></nav>
-		<!--/NAVIGATION END-->
-
-		<!--MAIN-->
-		<main class="container" ng-class="Main.page.template" ui-view></main>
-		<!--MAIN END-->
-
-		<!--FOOTER-->
-		<footer ng-include="'app/partials/footer.html'"></footer>
-		<!--FOOTER END-->
-	</div>
+	<div ui-view class="root"></div>
 
 	<script src="app/main.min.js"></script>
 

@@ -1,6 +1,10 @@
 /** Reset **/
 @import 'vendor/normalize';
 
+/** Utilities **/
+@import 'utilities/functions';
+@import 'utilities/responsive';
+
 /** Global **/
 @import 'global/general';
 

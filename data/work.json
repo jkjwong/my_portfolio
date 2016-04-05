@@ -1,50 +1,57 @@
 [
 	{
 		"title": "John Lobb",
-		"url": "johnlobb",
+		"slug": "johnlobb",
 		"desc": "An e-commerce website for a luxury shoe brand",
+		"role": "Front end",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Home Royale",
-		"url": "homeroyale",
+		"slug": "homeroyale",
 		"desc": "An e-commerce website for a luxury shoe brand",
+		"role": "Front end, design",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Somersby Cider",
-		"url": "somersby",
+		"slug": "somersby",
 		"desc": "A micro-site to showcase a new range of ciders",
+		"role": "Front end",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Crossway Foundation",
-		"url": "crossway",
+		"slug": "crossway",
 		"desc": "An e-commerce website for a luxury shoe brand",
+		"role": "Front end",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Carlsberg People's Pundit",
-		"url": "pundit",
+		"slug": "pundit",
 		"desc": "An e-commerce website for a luxury shoe brand",
+		"role": "Front end",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Danio The Grumbler",
-		"url": "grumbler",
+		"slug": "grumbler",
 		"desc": "An e-commerce website for a luxury shoe brand",
+		"role": "Front end",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Katy's Cupcakes",
-		"url": "katys",
+		"slug": "katys",
 		"desc": "An e-commerce website for a luxury shoe brand",
+		"role": "Front end, design",
 		"tech": ["AngularJS", "Magento", "WordPress"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	}

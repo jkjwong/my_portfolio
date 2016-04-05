@@ -5,15 +5,13 @@
 		.module('app')
 		.controller('workCtrl', workCtrl);
 
-		workCtrl.$inject = ['dataService', 'api'];
+		workCtrl.$inject = ['dataService', 'api', 'workData'];
 
-		function workCtrl(dataService, api) {
+		function workCtrl(dataService, api, workData) {
 			console.log('work controller loaded');
 
 			var vm = this;
 
-			dataService.getData(api.work).success(function (response) {
-				vm.portfolio = response;
-			});
+			vm.portfolio = workData;
 		}
 })();
