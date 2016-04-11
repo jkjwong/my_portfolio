@@ -28,6 +28,11 @@
 				},
 				returnWork: function() {
 					return this.data;
+				},
+				getProject: function(index) {
+					var elementPos = this.data.map(function(x) {return x.slug; }).indexOf(index);
+					console.log(elementPos);
+					return this.data[elementPos];
 				}
 			};
 

@@ -2,57 +2,61 @@
 	{
 		"title": "John Lobb",
 		"slug": "johnlobb",
-		"desc": "An e-commerce website for a luxury shoe brand",
-		"role": "Front end",
-		"tech": ["AngularJS", "Magento", "WordPress"],
+		"desc": "A Magento e-commerce website for a luxury shoe brand.",
+		"link": "http://johnlobb.com",
+		"role": "Front end development",
+		"tech": ["HTML", "CSS", "JavaScript", "Magento", "jQuery", "Responsive"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	},
 	{
 		"title": "Home Royale",
 		"slug": "homeroyale",
-		"desc": "An e-commerce website for a luxury shoe brand",
-		"role": "Front end, design",
-		"tech": ["AngularJS", "Magento", "WordPress"],
-		"images": ["image1.jpg","image2.jpg","image3.jpg"]
+		"desc": "A luxury homeware store based in Lagos. The site is built on WordPress where the theme was built from scratch.",
+		"link": "http://home-royale.com",
+		"role": "Front end development, design",
+		"tech": ["HTML", "CSS", "JavaScript", "WordPress", "jQuery", "Responsive"],
+		"images": ["image1.jpg","image2.jpg","image3.jpg", "image4.jpg"]
 	},
 	{
 		"title": "Somersby Cider",
 		"slug": "somersby",
-		"desc": "A micro-site to showcase a new range of ciders",
-		"role": "Front end",
-		"tech": ["AngularJS", "Magento", "WordPress"],
-		"images": ["image1.jpg","image2.jpg","image3.jpg"]
+		"desc": "A micro-site to showcase a new range of cider. The site is built with AngularJS and integrated with the Bazaarvoice product review system.",
+		"role": "Front end development",
+		"tech": ["HTML", "CSS", "JavaScript", "AngularJS","Bazaarvoice", "Responsive"],
+		"images": ["image1.jpg","image2.jpg"]
 	},
 	{
 		"title": "Crossway Foundation",
 		"slug": "crossway",
-		"desc": "An e-commerce website for a luxury shoe brand",
-		"role": "Front end",
-		"tech": ["AngularJS", "Magento", "WordPress"],
-		"images": ["image1.jpg","image2.jpg","image3.jpg"]
+		"desc": "The Crossway Foundation is a London based charity delivering arts and education initiatives for young people across the UK and the Middle East.",
+		"link": "http://crossway-foundation.org",
+		"role": "Front end development",
+		"tech": ["HTML", "CSS", "JavaScript", "WordPress", "jQuery", "Youtube API", "Responsive", "GSAP Tween"],
+		"images": ["image1.jpg"]
 	},
 	{
 		"title": "Carlsberg People's Pundit",
 		"slug": "pundit",
-		"desc": "An e-commerce website for a luxury shoe brand",
-		"role": "Front end",
-		"tech": ["AngularJS", "Magento", "WordPress"],
-		"images": ["image1.jpg","image2.jpg","image3.jpg"]
+		"desc": "A competition website for Carlsberg, allowing users to upload sound or video clips of themselves commentating a football match. The winner joined the Talksport on-air team at the Premier League final. The site was built using AngularJS, also utilising Howler JS for sound playback.",
+		"role": "Front end development",
+		"tech": ["HTML", "CSS", "JavaScript", "AngularJS", "Responsive", "Howler JS"],
+		"images": ["image1.jpg"]
 	},
 	{
 		"title": "Danio The Grumbler",
 		"slug": "grumbler",
-		"desc": "An e-commerce website for a luxury shoe brand",
-		"role": "Front end",
-		"tech": ["AngularJS", "Magento", "WordPress"],
-		"images": ["image1.jpg","image2.jpg","image3.jpg"]
+		"desc": "A promotional micro-site offering a free giveaway of Danio yoghurts.",
+		"role": "Front end development",
+		"tech": ["HTML", "CSS", "JavaScript", "AngularJS", "jQuery", "Responsive"],
+		"images": ["image1.jpg"]
 	},
 	{
 		"title": "Katy's Cupcakes",
 		"slug": "katys",
-		"desc": "An e-commerce website for a luxury shoe brand",
-		"role": "Front end, design",
-		"tech": ["AngularJS", "Magento", "WordPress"],
+		"desc": "The website is used to showcase and drive business to a cupcake service based in Surrey.",
+		"link": "http://katyscupcakes.co.uk",
+		"role": "Front end development, design",
+		"tech": ["HTML", "CSS", "JavaScript", "WordPress", "jQuery", "Responsive"],
 		"images": ["image1.jpg","image2.jpg","image3.jpg"]
 	}
 ]

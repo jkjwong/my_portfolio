@@ -55,7 +55,8 @@ module.exports = function(grunt) {
 						'app/services/data.service.js',
 						'app/services/constants.service.js',
 
-						'app/controllers/work.controller.js'
+						'app/controllers/work.controller.js',
+						'app/controllers/project.controller.js'
 					]
 				}
 			}

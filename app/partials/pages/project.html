@@ -1,0 +1,32 @@
+<nav>
+	<a href="/work" class="btn-nav"><< Back</a>
+</nav>
+<article class="page-work-detail">
+	<div
+		class="project-hero"
+		ng-style="{'background-image':'url(/images/{{project.details.slug}}/thumbnail.jpg)'}">
+    </div>
+	<div class="project-intro">
+		<h1>{{project.details.title}}</h1>
+		<p>{{project.details.desc}}</p>
+	</div>
+	<a
+		ng-if="project.details.link"
+		href="{{project.details.link}}"
+		class="project-visit"
+		target="_blank">Visit Site</a>
+	<h2>Role:</h2>
+	<p>{{project.details.role}}</p>
+	<h2>Technologies used:</h2>
+	<ul class="project-tech">
+		<li ng-repeat="tech in project.details.tech">{{tech}}</li>
+	</ul>
+	<section class="project-images">
+		<a
+			ng-repeat="image in project.details.images"
+			href="/images/{{project.details.slug}}/{{image}}"
+			target="_blank"
+			ng-style="{'background-image':'url(/images/{{project.details.slug}}/{{image}})'}">
+		</a>
+	</section>
+</article>

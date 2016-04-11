@@ -5,9 +5,9 @@
 		.module('app')
 		.controller('workCtrl', workCtrl);
 
-		workCtrl.$inject = ['dataService', 'api', 'workData'];
+		workCtrl.$inject = ['workData'];
 
-		function workCtrl(dataService, api, workData) {
+		function workCtrl(workData) {
 			console.log('work controller loaded');
 
 			var vm = this;

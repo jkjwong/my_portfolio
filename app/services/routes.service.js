@@ -41,7 +41,14 @@
 				.state('work.detail', {
 					url: '/:id',
 					parent: 'work',
-					templateUrl: '/app/partials/pages/work.detail.html'
+					controller: 'projectCtrl',
+					controllerAs: 'project',
+					resolve: {
+						projectData: ['getData', 'dataService', '$stateParams', function(getData, dataService, $stateParams) {
+							return dataService.getProject($stateParams.id);
+						}]
+					},
+					templateUrl: '/app/partials/pages/project.html'
 				});
 
 			$locationProvider.html5Mode(true);
