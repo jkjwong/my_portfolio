@@ -1,0 +1,7 @@
+.page-home {
+	p {
+		@include responsive('<','phones',(
+				text-align: center
+		));
+	}
+}
