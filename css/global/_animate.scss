@@ -1,0 +1,15 @@
+.root.ng-enter,
+main.ng-enter,
+.page-work.ng-enter {
+	opacity: 0;
+	position: relative;
+	top: 10px;
+	transition: 1s;
+}
+
+.root.ng-enter-active,
+main.ng-enter-active,
+.page-work.ng-enter-active {
+	opacity: 1;
+	top: 0;
+}

@@ -1,0 +1,92 @@
+.page-work-detail {
+	h2 {
+		font-size: 1.2em;
+		margin-bottom: 10px;
+	}
+
+	p {
+		font-size: 1em;
+		line-height:1.4em;
+	}
+
+	.project-intro {
+		margin-bottom: 35px;
+
+		h1 {
+			margin-bottom: 5px;
+		}
+
+		p {
+			margin-top: 0;
+		}
+	}
+
+	.project-hero {
+		width: 100%;
+		height: 0;
+		margin: 30px auto;
+		padding-bottom: 56.25%;
+		background-repeat: no-repeat;
+		background-position: center;
+		background-size: cover;
+		border: 1px solid darkgrey;
+	}
+
+	.project-visit {
+		display: block;
+		box-sizing: border-box;
+		width: 100%;
+		padding: 10px;
+		text-align: center;
+		color: white;
+		background-color: green;
+		transition: opacity .25s ease-in-out;
+
+		&:hover {
+			opacity: 0.8;
+		}
+	}
+
+	.project-tech {
+		padding-left: 0;
+
+		li {
+			display: inline-block;
+			margin: 0 3px 6px;
+			padding: 5px 10px;
+			list-style: none;
+			background-color: white;
+			
+		}
+	}
+
+	.project-images {
+		a {
+			display: block;
+			position: relative;
+			width: 90%;
+			height: 0;
+			margin: 20px auto;
+			padding-bottom: 125%;
+			background-repeat: no-repeat;
+			background-position: top;
+			background-size: cover;
+
+			&:after {
+				display: block;
+				position: absolute;
+				left: 0;
+				bottom: 50px;
+				width: 100%;
+				height: 20px;
+				background-color: white;
+			}
+		}
+
+		img {
+			display: block;
+			width: 100%;
+			margin-bottom: 20px;
+		}
+	}
+}

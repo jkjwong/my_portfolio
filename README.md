@@ -1,3 +1,7 @@
-# jkjwong.com
+## About
 
-The HTML/CSS template for my own portfolio site. I will eventually convert it into a WordPress theme.
+My portfolio website created in Angular 1.x.
+
+## Changelog
+
+2016-03-19 - Create site

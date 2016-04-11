@@ -1,0 +1,19 @@
+/** Reset **/
+@import 'vendor/normalize';
+
+/** Utilities **/
+@import 'utilities/functions';
+@import 'utilities/responsive';
+
+/** Global **/
+@import 'global/general';
+
+/** ngAnimate **/
+@import 'global/animate';
+
+/** Layout **/
+@import 'global/grid';
+
+/** Pages **/
+@import 'page/work';
+@import 'page/work-detail';
