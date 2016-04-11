@@ -6,12 +6,13 @@
 	<div class="grid-wrapper">
 		<div class="work-item grid-col col-1-2"
 		     ng-repeat="project in work.portfolio">
-			<div class="work-item-inner"
-			     ng-style="{'background-image':'url(/images/{{project.slug}}/thumbnail.jpg)'}">
-				<a ui-sref="work.detail({id: project.slug,project: project})" class="overlay">
+			<a class="work-item-inner"
+			   ui-sref="work.detail({id: project.slug,project: project})"
+			   ng-style="{'background-image':'url(/images/{{project.slug}}/thumbnail.jpg)'}">
+				<div class="overlay">
 					<h3>{{project.title}}</h3>
-				</a>
-			</div>
+				</div>
+			</a>
 		</div>
 	</div>
 </section>
